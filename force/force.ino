@@ -35,5 +35,5 @@ void setup() {
 void loop() {
   Serial.println(scale.get_units()+0.04, 1);
 
-  //delay(200);
+  delay(20);
 }
