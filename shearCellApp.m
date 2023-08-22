@@ -101,7 +101,7 @@ stateA = 0;
         time = 0;
         while stateA == 1
             % plus 0.1 seconds, sample rate set in arduino
-            time = time + 0.1;
+            time = time + 0.02;
             % Read the ASCII data from the serialport object.
             weight = readline(serial);
             force  = str2double(weight)/9.80665;
@@ -120,15 +120,14 @@ stateA = 0;
             plot(axisForceTime, ...
                 serial.UserData.Time(2:end), ...
                 serial.UserData.Force(2:end));
-            plot(axisForceTime, ...
+            plot(axisTorqueTime, ...
                 serial.UserData.Time(2:end), ...
                 serial.UserData.Torque(2:end));
         end
     end
 
     function saveButtonPushed()
-        data = [serial.UserData.Time(2:end), serial.UserData.Data(2:end)];
-        valuePanelValue.Text = data;
+        data = [serial.UserData.Time(2:end), serial.UserData.Force(2:end)];
         fileName1  = materialType.Value;
         fileName2  = normalLoad.Value;
         formatSpec = '%s%s.csv';
