@@ -101,7 +101,7 @@ stateA = 0;
         time = 0;
         while stateA == 1
             % plus 0.1 seconds, sample rate set in arduino
-            time = time + 0.02;
+            time = time + 0.1;
             % Read the ASCII data from the serialport object.
             weight = readline(serial);
             force  = str2double(weight)/9.80665;
