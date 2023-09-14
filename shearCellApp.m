@@ -22,9 +22,9 @@ axisForceTime.YLabel.String = 'Force (N)';
 axisTorqueTime = uiaxes(g);
 axisTorqueTime.Layout.Row = [2 5];
 axisTorqueTime.Layout.Column = [4 6];
-axisTorqueTime.Title.String = 'Force Versus Time';
+axisTorqueTime.Title.String = 'Torque Versus Time';
 axisTorqueTime.XLabel.String = 'Time (s)';
-axisTorqueTime.YLabel.String = 'Torque (N*m)';
+axisTorqueTime.YLabel.String = 'Torque (Nm)';
 
 % Interactable elements
 % Button to begin recording and plotting data
@@ -114,7 +114,6 @@ stateA = 0;
             serial.UserData.Torque(end+1) = torque;
             % Update the Count value of the serialport object.
             serial.UserData.Time(end+1) = time;
-
             % Data is ploted
             configureCallback(serial, "off");
             plot(axisForceTime, ...
@@ -147,6 +146,8 @@ stateA = 0;
 
     function resetButtonPushed()
         plot(axisForceTime,0,0)
+        plot(axisTorqueTime,0,0)
+
         endButton.Text = 'End Recording';
         endButton.BackgroundColor = [95 15 64]/255;
         saveButton.Text = 'Save';
