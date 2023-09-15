@@ -126,7 +126,8 @@ stateA = 0;
     end
 
     function saveButtonPushed()
-        data = [serial.UserData.Time(2:end), serial.UserData.Force(2:end)];
+        data(1,:) = [serial.UserData.Time(2:end)];
+        data(2,:) = [serial.UserData.Force(2:end)];
         fileName1  = materialType.Value;
         fileName2  = normalLoad.Value;
         formatSpec = '%s%s.csv';
