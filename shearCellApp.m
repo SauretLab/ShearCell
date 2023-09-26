@@ -1,4 +1,4 @@
-function shearCellApp
+ function shearCellApp
 
 % Define Variables
 sampleRate = 1;
