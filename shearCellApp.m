@@ -87,7 +87,10 @@ normalLoad.Layout.Row = 6;
 normalLoad.Layout.Column = 4;
 
 % Arduino serial read
-serial = serialport("/dev/cu.usbmodem2101", 57600);
+% mac:
+% serial = serialport("/dev/cu.usbmodem2101", 57600);
+% windows:
+serial = serialport("COM3", 57600);
 configureTerminator(serial,"CR/LF");
 flush(serial);
 serial.UserData = struct("Data",[],"Time",[]);
