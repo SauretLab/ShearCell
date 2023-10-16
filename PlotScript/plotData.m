@@ -1,5 +1,5 @@
-list = {'all','2big2med','2big1m','2big','systemWeight'};
-%list = {'0kg'};
+%list = {'all','2big2med','2big1m','2big','systemWeight'};
+list = {'all'};
 for i = 1:length(list)
     filename = strcat('secondCohesive',string(list(i)),'.csv');
     a = readmatrix(filename);
