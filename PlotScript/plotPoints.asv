@@ -1,4 +1,4 @@
-clear; close all
+clear
 
 load('var1cNoOut.mat');
 load('var2cNoOut.mat');
@@ -17,11 +17,10 @@ x = [var1cNoOut(1,:),var2cNoOut(1,:)];
 y = [var1cNoOut(2,:)/0.02039,var2cNoOut(2,:)/0.02039];
 Fit = polyfit(x,y,1);
 
+legend(string(list))
 
 % Generate a line using the fitted coefficients
 x_line = linspace(min(x), max(x), 100); % Create a range of x values
 y_line = polyval(Fit, x_line); % Compute the corresponding y values
 
 plot(x_line, y_line); % Plot the linear regression line
-
-legend('1st test','2nd test','3rd test','fit to old data')
