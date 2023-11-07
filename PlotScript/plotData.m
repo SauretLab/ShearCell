@@ -1,6 +1,6 @@
 %list = {'all','2big2med','2big1m','2big','systemWeight'};
 %list = {'1med','1big2med1small','1big'};
-list = {'Max'};
+list = {'1med','1big2med1small','1big'};
 for i = 1:length(list)
     filename = strcat('thirdCohesive',string(list(i)),'.csv');
     a = readmatrix(filename);
