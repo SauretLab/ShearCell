@@ -1,0 +1,32 @@
+%list = {'all','2big2med','2big1m','2big','systemWeight'};
+%list = {'1med','1big2med1small','1big'};
+list = {'1med'};
+data = struct;
+for i = 1:length(list)
+    fileName = strcat('thirdCohesive',string(list(i)),'.csv');
+
+    data.(fileName) = readmatrix(fileName);
+
+    plot(data.(fileName)(1,:),data.(fileName)(2,:));
+    xlim([0 inf]);
+
+    hold on
+end 
+
+legend(string(list))
+
+for i = 1:length(list)
+    % Compute the FFT of the concatenated data
+    fs = 1 / (a(i, 2) - a(i, 1));  % Calculate the sampling frequency
+    N = length(all_data);  % Length of the concatenated data
+    frequencies = (0:N-1) * fs / N;  % Frequency axis
+    fft_result = fft(all_data, N);  % Compute the FFT
+
+    % Plot the FFT result
+    figure;
+    plot(frequencies, abs(fft_result));
+    title('FFT of Concatenated Data');
+    xlabel('Frequency (Hz)');
+    ylabel('Magnitude');
+end
+
