@@ -13,7 +13,9 @@ for i = 1:length(list)
 
     plot(a(1,:), a(2,:));
     xlim([5, inf]);
-
+    grid on
+    xlabel('time (s)');
+    ylabel('force(N)');
     hold on
 end
 
