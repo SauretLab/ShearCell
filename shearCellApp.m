@@ -107,10 +107,10 @@ stateA = 0;
             time = time + 0.1;
             % Read the ASCII data from the serialport object.
             weight = readline(serial);
-            force  = str2double(weight)/9.80665;
+            force  = str2double(weight) * 9.80665/1000; %N
 
             % Convert force to torque
-            torque = force * 0.15;
+            torque = force * 0.216; %Nm
             % Convert the string data to numeric type and save it
             % in the UserData property of the serialport object.
             serial.UserData.Force(end+1) = force;

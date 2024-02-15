@@ -4,7 +4,8 @@ list = {'1med'}; % ,'1big2med1small','1big'
 all_data = [];  % Initialize an empty array to store concatenated data
 
 for i = 1:length(list)
-    filename = strcat('thirdCohesive', string(list(i)), '.csv');
+    %filename = strcat('thirdCohesive', string(list(i)), '.csv');
+    filename = strcat('newMotorTestset load (N).csv');
     a = readmatrix(filename);
     start_col = 50;
     end_col = 1675;
