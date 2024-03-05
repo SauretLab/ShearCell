@@ -1,7 +1,7 @@
 %% Data Estimates PLot - Mohr Coloumb Failure
 
 g = 9.81; % acceleration due to gravity [m/s^2]
-shaft = 2; % Weight of shaft attatchment with no additional mass [kg]
+shaft = 2.2905; % Weight of shaft attatchment with no additional mass [kg]
 
 R_out = 0.083; %radius of outer cylinder [m]
 R_in = 0.051; %radius of inner cylinder [m]

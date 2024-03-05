@@ -1,9 +1,9 @@
- function shearCellApp
+function shearCellApp
 
 % Define Variables
 sampleRate = 1;
 
-fig = uifigure('WindowState','fullscreen', ...
+fig = uifigure('WindowState','normal', ...
     'Name','ShearCell App by Raaghav');
 g = uigridlayout(fig,[6 6], 'BackgroundColor',[234 249 217]/255);
 g.RowHeight = {'1x','2x','2x','2x','2x','1x'};
