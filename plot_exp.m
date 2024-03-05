@@ -82,7 +82,7 @@ tau4 = T4./((2*pi/3)*(R_out^3 - R_in^3)); % Shear Stress at Failure 3 [Pa]
 tau4_avg = mean(tau4);
 tau4_err = std(tau4);
 
-plot ((sig4.*ones(size(T4))), tau4, 'bo');
+plot ((sig4.*ones(size(T4))), tau4, 'go');
 
 sig = [sig1 sig2 sig3 sig4];
 tau = [tau1_avg tau2_avg tau3_avg tau4_avg];
