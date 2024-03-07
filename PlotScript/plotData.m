@@ -1,6 +1,6 @@
 %list = {'all','2big2med','2big1m','2big','systemWeight'};
 %list = {'1med','1big2med1small','1big'};
-list = {'e1med'};
+list = {'d'};
 data = struct;
 hold on
 
@@ -14,7 +14,7 @@ b = gcf;
 hold on
 
 for i = 1:length(list)
-    fileName = strcat('thirdCohesiv',string(list(i)),'.csv');
+    fileName = strcat('1.15mm0.5%wet5kgPre_sys,+1,+2,+3faile',string(list(i)),'.csv');
 
     data.(string(list(i))) = readmatrix(fileName);
 
