@@ -4,9 +4,9 @@ clear
 clc
 close all
 
-list = {'Max'};
+list = {''};
 for i = 1:length(list)
-    filename = strcat('thirdCohesive',string(list(i)),'.csv');
+    filename = strcat('1.15mm0.5%wet5kgPre_sys,+1,+2,+3failed',string(list(i)),'.csv');
     Time_Force = readmatrix(filename);
     
     Shear = Time_Force;
