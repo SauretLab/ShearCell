@@ -28,7 +28,7 @@ L = 0.216; % force arm length [m]
 
 m1 = 1.1495; % mass 1 [kg]
 N1 = (m1 + shaft)*g; % Normal Load 1 [N]
-sig1 = N1/(pi*(R_out^2 - R_in^2)); % Normal Stress 1 [Pa]
+sig1 = N1/(2*(pi*(R_out^2 - R_in^2))+(R_out+R_in)*0.05*pi); % Normal Stress 1 [Pa]
 
 T1 = [1.140 1.432 1.129 1.123 1.116]; % measured torques at failure 1 [Nm]
 tau1 = T1./((2*pi/3)*(R_out^3 - R_in^3)); % Shear Stress at Failure 1 [Pa]
@@ -50,7 +50,7 @@ hold on
 
 m2 = 2.270; % mass 2 [kg]
 N2 = (m2 + shaft)*g; % Normal Load 2 [N]
-sig2 = N2/(pi*(R_out^2 - R_in^2)); % Normal Stress 2 [Pa]
+sig2 = N2/(2*(pi*(R_out^2 - R_in^2))+(R_out+R_in)*0.05*pi); % Normal Stress 2 [Pa]
 
 T2 = [1.69 1.70 1.71 1.71 1.715]; % measured torques at failure 2 [Nm]
 tau2 = T2./((2*pi/3)*(R_out^3 - R_in^3)); % Shear Stress at Failure 2 [Pa]
@@ -63,7 +63,7 @@ plot ((sig2.*ones(size(T2))), tau2, 'bo');
 
 m3 = 3.349; % mass 3 [kg]
 N3 = (m3 + shaft)*g; % Normal Load 3 [N]
-sig3 = N3/(pi*(R_out^2 - R_in^2)); % Normal Stress 3 [Pa]
+sig3 = N3/(2*(pi*(R_out^2 - R_in^2))+(R_out+R_in)*0.05*pi); % Normal Stress 3 [Pa]
 
 T3 = [2.02 2.03 2.04 2.04 2.04]; % measured torques at failure 3 [Nm]
 tau3 = T3./((2*pi/3)*(R_out^3 - R_in^3)); % Shear Stress at Failure 3 [Pa]
@@ -76,7 +76,7 @@ plot ((sig3.*ones(size(T3))), tau3, 'bo');
 
 m4 = 0; % mass 4 [kg]
 N4 = (m4 + shaft)*g; % Normal Load 4 [N]
-sig4 = N4/(pi*(R_out^2 - R_in^2)); % Normal Stress 4 [Pa]
+sig4 = N4/(2*(pi*(R_out^2 - R_in^2))+(R_out+R_in)*0.05*pi); % Normal Stress 4 [Pa]
 
 T4 = [0.76 0.78 0.77 0.76 0.75]; % measured torques at failure 3 [Nm]
 tau4 = T4./((2*pi/3)*(R_out^3 - R_in^3)); % Shear Stress at Failure 3 [Pa]
@@ -95,7 +95,7 @@ plot (sig, tau, 'ro')
 
 mwet1 = 0+ .4;
 N1 = (mwet1 + shaft)*g; % Normal Load 1 [N]
-sig1 = N1/(pi*(R_out^2 - R_in^2)); % Normal Stress 1 [Pa]
+sig1 = N1/(2*(pi*(R_out^2 - R_in^2))+(R_out+R_in)*0.05*pi); % Normal Stress 1 [Pa]
 
 T1 = [7.34322 7.336 8.627 9.185 9.743 9.267 8.326 7.799 6.853].*L; % %force times length arm -measured torques at failure 1 [Nm]
 tau1 = T1./((2*pi/3)*(R_out^3 - R_in^3)); % Shear Stress at Failure 1 [Pa]
@@ -118,7 +118,7 @@ hold on
 
 mwet1 = 1.1495+ .4;
 N1 = (mwet1 + shaft)*g; % Normal Load 1 [N]
-sig1 = N1/(pi*(R_out^2 - R_in^2)); % Normal Stress 1 [Pa]
+sig1 = N1/(2*(pi*(R_out^2 - R_in^2))+(R_out+R_in)*0.05*pi); % Normal Stress 1 [Pa]
 
 T1 = [11.809 12.913 11.367 14.394 9.865 10.279].*L; % %force times length arm -measured torques at failure 1 [Nm]
 tau1 = T1./((2*pi/3)*(R_out^3 - R_in^3)); % Shear Stress at Failure 1 [Pa]
@@ -141,7 +141,7 @@ hold on
 
 mwet2 = 2.270 + .4;
 N1 = (mwet2 + shaft)*g; % Normal Load 1 [N]
-sig1 = N1/(pi*(R_out^2 - R_in^2)); % Normal Stress 1 [Pa]
+sig1 = N1/(2*(pi*(R_out^2 - R_in^2))+(R_out+R_in)*0.05*pi); % Normal Stress 1 [Pa]
 
 T1 = [14.39 14.54 12.15 13.92 13.59].*L; % %force times length arm -measured torques at failure 1 [Nm]
 tau1 = T1./((2*pi/3)*(R_out^3 - R_in^3)); % Shear Stress at Failure 1 [Pa]

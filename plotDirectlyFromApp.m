@@ -9,9 +9,9 @@ y = data(:, 2); % Assuming the y values are in the second column
 plot(x, y, 'b-'); % 'b-' specifies blue solid line, you can customize this
 
 % Add labels and title
-xlabel('X-axis Label');
-ylabel('Y-axis Label');
-title('Your Plot Title');
+xlabel('Time (seconds)');
+ylabel('Force (Newtons)');
+title('Force vs Time');
 
 % Add grid (optional)
 grid on;
