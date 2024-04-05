@@ -12,7 +12,7 @@ yFiltered = sgolayfilt(y, polynomialOrder, windowSize);
 
 % Calculate averages over 1-second and 5-second intervals
 interval1 = 1; % 1 second interval
-interval5 = 5; % 5 second interval
+interval5 = 10; % 5 second interval
 x1 = (interval1:interval1:max(x))'; % Create x values for 1-second intervals
 y1 = zeros(size(x1)); % Initialize y values for 1-second averages
 x5 = (interval5:interval5:max(x))'; % Create x values for 5-second intervals
