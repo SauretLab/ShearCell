@@ -173,7 +173,7 @@ tau1_err = std(tau1);
 T1_dry = [];
 
 figure(1)
-plot ((sig1.*ones(size(T1))), tau1, '+b');
+plot ((sig1.*ones(size(T1))), tau1, 'diamondb');
 xlim([0 5000])
 ylim([0 5000])
 grid on
@@ -196,7 +196,7 @@ tau1_err = std(tau1);
 T1_dry = [];
 
 figure(1)
-plot ((sig1.*ones(size(T1))), tau1, '+b');
+plot ((sig1.*ones(size(T1))), tau1, 'diamondb');
 xlim([0 5000])
 ylim([0 5000])
 grid on
@@ -218,7 +218,7 @@ tau1_err = std(tau1);
 T1_dry = [];
 
 figure(1)
-plot ((sig1.*ones(size(T1))), tau1, '+b');
+plot ((sig1.*ones(size(T1))), tau1, 'diamondb');
 xlim([0 5000])
 ylim([0 5000])
 grid on
@@ -226,7 +226,7 @@ xlabel('$\sigma$ (Pa)', 'Interpreter','latex', 'FontSize',20)
 ylabel('$\tau$ (Pa)', 'Interpreter','latex', 'FontSize',20)
 hold on
 
-%% mass 6: sys load + 111
+%% mass 6: sys load + 112
 
 mwet2 = 0.111 + .4;
 N1 = (mwet2 + shaft)*g; % Normal Load 1 [N]
@@ -250,7 +250,7 @@ tau1_err = std(tau1);
 T1_dry = [];
 
 figure(1)
-plot ((sig1.*ones(size(T1))), tau1, '+r');
+plot ((sig1.*ones(size(T1))), tau1, 'diamondb');
 xlim([0 5000])
 ylim([0 5000])
 grid on
@@ -260,7 +260,7 @@ hold on
 
 %% mass 7: sys load + 111 + 112
 
-mwet2 = 0.111 + .112 + .4;
+mwet2 = 0.111 + 112 + .4;
 N1 = (mwet2 + shaft)*g; % Normal Load 1 [N]
 sig1 = N1/(pi*(R_out^2 - R_in^2)); % Normal Stress 1 [Pa]
 
@@ -281,7 +281,7 @@ tau1_err = std(tau1);
 T1_dry = [];
 
 figure(1)
-plot ((sig1.*ones(size(T1))), tau1, '+r');
+plot ((sig1.*ones(size(T1))), tau1, 'diamondb');
 xlim([0 5000])
 ylim([0 5000])
 grid on
@@ -289,7 +289,7 @@ xlabel('$\sigma$ (Pa)', 'Interpreter','latex', 'FontSize',20)
 ylabel('$\tau$ (Pa)', 'Interpreter','latex', 'FontSize',20)
 hold on
 
-%% mass 8: sys load + 223 + 111
+%% mass 8: sys load + 223+111
 
 mwet2 = 0.223 + .111 + .4;
 N1 = (mwet2 + shaft)*g; % Normal Load 1 [N]
@@ -309,7 +309,7 @@ tau1_err = std(tau1);
 T1_dry = [];
 
 figure(1)
-plot ((sig1.*ones(size(T1))), tau1, '+r');
+plot ((sig1.*ones(size(T1))), tau1, 'diamondb');
 xlim([0 5000])
 ylim([0 5000])
 grid on
@@ -318,9 +318,9 @@ ylabel('$\tau$ (Pa)', 'Interpreter','latex', 'FontSize',20)
 hold on
 
 
-%% mass 9: sys load + 223 + 111 + 112
+%% mass 6: sys load + 112
 
-mwet2 = 0.223 + 0.111 + 0.112 + .4;
+mwet2 = 0.122 + .4;
 N1 = (mwet2 + shaft)*g; % Normal Load 1 [N]
 sig1 = N1/(pi*(R_out^2 - R_in^2)); % Normal Stress 1 [Pa]
 
@@ -405,7 +405,7 @@ tau1_err = std(tau1);
 T1_dry = [];
 
 figure(1)
-plot ((sig1.*ones(size(T1))), tau1, '+r');
+plot ((sig1.*ones(size(T1))), tau1, 'diamondb');
 xlim([0 5000])
 ylim([0 5000])
 grid on
