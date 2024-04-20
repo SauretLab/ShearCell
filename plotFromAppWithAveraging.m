@@ -1,5 +1,5 @@
 % Read data from CSV file
-data = csvread('1mmg wt0point5sys_111_111+112_223+111_223+111+112.csv'); % Replace 'your_file.csv' with the path to your CSV file
+data = csvread('1mm1%wet_sys,+1150,+2207,+2207+1150,+2207+2270,+112g.csv'); % Replace 'your_file.csv' with the path to your CSV file
 
 % Extract x and y data from the CSV data (assuming two columns)
 x = data(:, 1); % Assuming the x values are in the first column

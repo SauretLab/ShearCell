@@ -414,6 +414,190 @@ ylabel('$\tau$ (Pa)', 'Interpreter','latex', 'FontSize',20)
 hold on
 
 
+%% WET 1% mass 0: sys load 
+
+mwet2 = 0 + .4;
+N1 = (mwet2 + shaft)*g; % Normal Load 1 [N]
+sig1 = N1/(pi*(R_out^2 - R_in^2)); % Normal Stress 1 [Pa]
+
+T1 = [5.2309
+4.7811
+4.5145
+5.172
+4.6487
+4.8607
+4.5986
+4.456
+4.7038
+4.4024
+4.6439
+4.7372].*L; % %force times length arm -measured torques at failure 1 [Nm]
+tau1 = T1./((2*pi/3)*(R_out^3 - R_in^3)); % Shear Stress at Failure 1 [Pa]
+tau1_avg = mean(tau1);
+tau1_err = std(tau1);
+
+T1_dry = [];
+
+figure(1)
+plot ((sig1.*ones(size(T1))), tau1, 'xb');
+xlim([0 5000])
+ylim([0 5000])
+grid on
+xlabel('$\sigma$ (Pa)', 'Interpreter','latex', 'FontSize',20)
+ylabel('$\tau$ (Pa)', 'Interpreter','latex', 'FontSize',20)
+hold on
+
+%% WET 1% mass 1: sys load + 1.150
+
+mwet2 = 1.150 + .4;
+N1 = (mwet2 + shaft)*g; % Normal Load 1 [N]
+sig1 = N1/(pi*(R_out^2 - R_in^2)); % Normal Stress 1 [Pa]
+
+T1 = [6.0557
+6.0452
+6.1613
+5.8123
+5.82].*L; % %force times length arm -measured torques at failure 1 [Nm]
+tau1 = T1./((2*pi/3)*(R_out^3 - R_in^3)); % Shear Stress at Failure 1 [Pa]
+tau1_avg = mean(tau1);
+tau1_err = std(tau1);
+
+T1_dry = [];
+
+figure(1)
+plot ((sig1.*ones(size(T1))), tau1, 'xb');
+xlim([0 5000])
+ylim([0 5000])
+grid on
+xlabel('$\sigma$ (Pa)', 'Interpreter','latex', 'FontSize',20)
+ylabel('$\tau$ (Pa)', 'Interpreter','latex', 'FontSize',20)
+hold on
+
+%% WET 1% mass 3: sys load + 2.207 
+
+mwet2 = 2.207 + .4;
+N1 = (mwet2 + shaft)*g; % Normal Load 1 [N]
+sig1 = N1/(pi*(R_out^2 - R_in^2)); % Normal Stress 1 [Pa]
+
+T1 = [7.1696
+6.739
+7.2348
+7.0261
+7.5234
+6.625
+7.0888].*L; % %force times length arm -measured torques at failure 1 [Nm]
+tau1 = T1./((2*pi/3)*(R_out^3 - R_in^3)); % Shear Stress at Failure 1 [Pa]
+tau1_avg = mean(tau1);
+tau1_err = std(tau1);
+
+T1_dry = [];
+
+figure(1)
+plot ((sig1.*ones(size(T1))), tau1, 'xb');
+xlim([0 5000])
+ylim([0 5000])
+grid on
+xlabel('$\sigma$ (Pa)', 'Interpreter','latex', 'FontSize',20)
+ylabel('$\tau$ (Pa)', 'Interpreter','latex', 'FontSize',20)
+hold on
+
+%% WET 1% mass 4: sys load + 2.207 + 1.150
+
+mwet2 = 2.207 + 1.150 + .4;
+N1 = (mwet2 + shaft)*g; % Normal Load 1 [N]
+sig1 = N1/(pi*(R_out^2 - R_in^2)); % Normal Stress 1 [Pa]
+
+T1 = [8.6075
+8.4346
+8.2649
+8.4154
+8.5391
+8.2314
+8.2435
+8.8166
+8.7081
+8.1649
+7.8407
+8.2764
+8.7268
+8.546
+8.3449
+8.5301
+8.4638
+9.1037
+8.3191].*L; % %force times length arm -measured torques at failure 1 [Nm]
+tau1 = T1./((2*pi/3)*(R_out^3 - R_in^3)); % Shear Stress at Failure 1 [Pa]
+tau1_avg = mean(tau1);
+tau1_err = std(tau1);
+
+T1_dry = [];
+
+figure(1)
+plot ((sig1.*ones(size(T1))), tau1, 'xb');
+xlim([0 5000])
+ylim([0 5000])
+grid on
+xlabel('$\sigma$ (Pa)', 'Interpreter','latex', 'FontSize',20)
+ylabel('$\tau$ (Pa)', 'Interpreter','latex', 'FontSize',20)
+hold on
+
+%% WET 1% mass 4: sys load + 2.207 + 2.270
+
+mwet2 = 2.207 + 2.270 + .4;
+N1 = (mwet2 + shaft)*g; % Normal Load 1 [N]
+sig1 = N1/(pi*(R_out^2 - R_in^2)); % Normal Stress 1 [Pa]
+
+T1 = [10.174
+9.6232
+9.3992
+9.3334
+9.3614
+10.088
+9.512
+9.9228].*L; % %force times length arm -measured torques at failure 1 [Nm]
+tau1 = T1./((2*pi/3)*(R_out^3 - R_in^3)); % Shear Stress at Failure 1 [Pa]
+tau1_avg = mean(tau1);
+tau1_err = std(tau1);
+
+T1_dry = [];
+
+figure(1)
+plot ((sig1.*ones(size(T1))), tau1, 'xb');
+xlim([0 5000])
+ylim([0 5000])
+grid on
+xlabel('$\sigma$ (Pa)', 'Interpreter','latex', 'FontSize',20)
+ylabel('$\tau$ (Pa)', 'Interpreter','latex', 'FontSize',20)
+hold on
+
+%% WET 1% mass 5: sys load + 112
+
+mwet2 = 0.112 + .4;
+N1 = (mwet2 + shaft)*g; % Normal Load 1 [N]
+sig1 = N1/(pi*(R_out^2 - R_in^2)); % Normal Stress 1 [Pa]
+
+T1 = [4.3139
+4.1188
+3.858
+3.9188
+3.8434
+3.8442
+4.0826].*L; % %force times length arm -measured torques at failure 1 [Nm]
+tau1 = T1./((2*pi/3)*(R_out^3 - R_in^3)); % Shear Stress at Failure 1 [Pa]
+tau1_avg = mean(tau1);
+tau1_err = std(tau1);
+
+T1_dry = [];
+
+figure(1)
+plot ((sig1.*ones(size(T1))), tau1, 'xr');
+xlim([0 5000])
+ylim([0 5000])
+grid on
+xlabel('$\sigma$ (Pa)', 'Interpreter','latex', 'FontSize',20)
+ylabel('$\tau$ (Pa)', 'Interpreter','latex', 'FontSize',20)
+hold on
+
 
 %% fit lines
 tau_c_Co_075 = 110.55; % shear stress intercept avg of trials
