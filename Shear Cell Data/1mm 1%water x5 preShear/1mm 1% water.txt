@@ -1,0 +1,168 @@
+Yield locus function
+--------------------
+Project:                                     PowderShear | 1mm Grains wet
+Input data:                                  1mm_1%wet 1, <All measuring
+                                             results>, From interval 1,
+                                             Point 1
+Result data:                                 Yield locus function
+
+ANALYSIS RESULTS:
+Number of used input data points:            15540
+Number of result data points:                25
+Found preshear interval nos.:                2;6;10;14;18;22;26;30;34;38;42;46;50;54;58;62;66;70;74;78;82;86;90;94;98
+Found shear-to-failure interval nos.:        4;8;12;16;20;24;28;32;36;40;44;48;52;56;60;64;68;72;76;80;84;88;92;96;100
+
+Preshear level 1
+   Preshear normal stress σ_p:               1962 Pa
+   Preshear stress τ_p:                      660.3 Pa
+
+Shear-to-failure points
+   Shear-to-failure normal stress σ_S:       800.3 Pa
+   Yield shear stress τ_y:                   477.3 Pa
+
+   Shear-to-failure normal stress σ_S:       1038 Pa
+   Yield shear stress τ_y:                   621.4 Pa
+
+   Shear-to-failure normal stress σ_S:       1230 Pa
+   Yield shear stress τ_y:                   835 Pa
+
+   Shear-to-failure normal stress σ_S:       1412 Pa
+   Yield shear stress τ_y:                   3511 Pa
+
+   Shear-to-failure normal stress σ_S:       1639 Pa
+   Yield shear stress τ_y:                   754.6 Pa
+
+Cohesion τ_c:                                0 Pa
+Tensile strength σ_t:                        0 Pa
+Unconfined yield strength σ_c:               0 Pa
+Major principle stress σ_1:                  2208 Pa
+Coefficient of flowability ff_c:             infinite     free-flowing
+Angle of internal friction φ_sf:             18.6°
+Effective angle of internal friction φ_e:    57.45°
+Slope angle of linearized yield locus φ_lin: 57.45°
+Sample height for bulk solid density:        12.58 mm
+Bulk solid density ρ_b:                      1.387 g/cm³
+
+Preshear level 2
+   Preshear normal stress σ_p:               3989 Pa
+   Preshear stress τ_p:                      1504 Pa
+
+Shear-to-failure points
+   Shear-to-failure normal stress σ_S:       1648 Pa
+   Yield shear stress τ_y:                   1338 Pa
+
+   Shear-to-failure normal stress σ_S:       2056 Pa
+   Yield shear stress τ_y:                   1265 Pa
+
+   Shear-to-failure normal stress σ_S:       2340 Pa
+   Yield shear stress τ_y:                   1400 Pa
+
+   Shear-to-failure normal stress σ_S:       2849 Pa
+   Yield shear stress τ_y:                   1498 Pa
+
+   Shear-to-failure normal stress σ_S:       3248 Pa
+   Yield shear stress τ_y:                   2229 Pa
+
+Cohesion τ_c:                                306.1 Pa
+Tensile strength σ_t:                        -599.5 Pa
+Unconfined yield strength σ_c:               999.8 Pa
+Major principle stress σ_1:                  4882 Pa
+Coefficient of flowability ff_c:             4.88     easy-flowing
+Angle of internal friction φ_sf:             20.66°
+Effective angle of internal friction φ_e:    32.73°
+Slope angle of linearized yield locus φ_lin: 27.05°
+Sample height for bulk solid density:        11.93 mm
+Bulk solid density ρ_b:                      1.463 g/cm³
+
+Preshear level 3
+   Preshear normal stress σ_p:               6012 Pa
+   Preshear stress τ_p:                      2868 Pa
+
+Shear-to-failure points
+   Shear-to-failure normal stress σ_S:       2430 Pa
+   Yield shear stress τ_y:                   2303 Pa
+
+   Shear-to-failure normal stress σ_S:       3100 Pa
+   Yield shear stress τ_y:                   1181 Pa
+
+   Shear-to-failure normal stress σ_S:       3657 Pa
+   Yield shear stress τ_y:                   4782 Pa
+
+   Shear-to-failure normal stress σ_S:       4239 Pa
+   Yield shear stress τ_y:                   3202 Pa
+
+   Shear-to-failure normal stress σ_S:       4813 Pa
+   Yield shear stress τ_y:                   4229 Pa
+
+Cohesion τ_c:                                0 Pa
+Tensile strength σ_t:                        0 Pa
+Unconfined yield strength σ_c:               0 Pa
+Major principle stress σ_1:                  7786 Pa
+Coefficient of flowability ff_c:             infinite     free-flowing
+Angle of internal friction φ_sf:             25.5°
+Effective angle of internal friction φ_e:    44.38°
+Slope angle of linearized yield locus φ_lin: 44.38°
+Sample height for bulk solid density:        11.67 mm
+Bulk solid density ρ_b:                      1.495 g/cm³
+
+Preshear level 4
+   Preshear normal stress σ_p:               7975 Pa
+   Preshear stress τ_p:                      9447 Pa
+
+Shear-to-failure points
+   Shear-to-failure normal stress σ_S:       3256 Pa
+   Yield shear stress τ_y:                   2893 Pa
+
+   Shear-to-failure normal stress σ_S:       4033 Pa
+   Yield shear stress τ_y:                   5966 Pa
+
+   Shear-to-failure normal stress σ_S:       4769 Pa
+   Yield shear stress τ_y:                   7643 Pa
+
+   Shear-to-failure normal stress σ_S:       5634 Pa
+   Yield shear stress τ_y:                   6757 Pa
+
+   Shear-to-failure normal stress σ_S:       6403 Pa
+   Yield shear stress τ_y:                   7834 Pa
+
+Cohesion τ_c:                                0 Pa
+Tensile strength σ_t:                        0 Pa
+Unconfined yield strength σ_c:               0 Pa
+Major principle stress σ_1:                  25220 Pa
+Coefficient of flowability ff_c:             infinite     free-flowing
+Angle of internal friction φ_sf:             49.83°
+Effective angle of internal friction φ_e:    53.15°
+Slope angle of linearized yield locus φ_lin: 53.15°
+Sample height for bulk solid density:        11.47 mm
+Bulk solid density ρ_b:                      1.521 g/cm³
+
+Preshear level 5
+   Preshear normal stress σ_p:               10000 Pa
+   Preshear stress τ_p:                      5016 Pa
+
+Shear-to-failure points
+   Shear-to-failure normal stress σ_S:       4009 Pa
+   Yield shear stress τ_y:                   7736 Pa
+
+   Shear-to-failure normal stress σ_S:       5020 Pa
+   Yield shear stress τ_y:                   10880 Pa
+
+   Shear-to-failure normal stress σ_S:       6026 Pa
+   Yield shear stress τ_y:                   10880 Pa
+
+   Shear-to-failure normal stress σ_S:       7007 Pa
+   Yield shear stress τ_y:                   10880 Pa
+
+   Shear-to-failure normal stress σ_S:       8029 Pa
+   Yield shear stress τ_y:                   10880 Pa
+
+Cohesion τ_c:                                6472 Pa
+Tensile strength σ_t:                        -10320 Pa
+Unconfined yield strength σ_c:               23400 Pa
+Major principle stress σ_1:                  11860 Pa
+Coefficient of flowability ff_c:             0.507     not flowing
+Angle of internal friction φ_sf:             26.63°
+Effective angle of internal friction φ_e:    NaN°
+Slope angle of linearized yield locus φ_lin: 32.1°
+Sample height for bulk solid density:        11.24 mm
+Bulk solid density ρ_b:                      1.553 g/cm³
