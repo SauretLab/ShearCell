@@ -1,0 +1,98 @@
+Yield locus function
+--------------------
+Project:                                     PowderShear | 600 um Grains
+                                             with CCGM
+Input data:                                  600 um CCGM, <All measuring
+                                             results>, From interval 1,
+                                             Point 1
+Result data:                                 Yield locus function
+
+PARAMETERS:
+Regression type:                             Linear
+Interval determination:                      Automatic determination from
+                                             measuring data
+Number of intervals to skip:                 0
+Check plausibility:                          On
+Show detailed results in diagram:            Off
+Show parameter settings:                     On
+
+ANALYSIS RESULTS:
+Number of used input data points:            4310
+Number of result data points:                9
+Found preshear interval nos.:                2;6;10;14;18;22;26;30;34
+Found shear-to-failure interval nos.:        4;8;12;16;20;24;28;32;36
+
+Preshear level 1
+   Preshear normal stress σ_p:               2994 Pa
+   Preshear stress τ_p:                      911.5 Pa
+
+Shear-to-failure points
+   Shear-to-failure normal stress σ_S:       1248 Pa
+   Yield shear stress τ_y:                   492.4 Pa
+
+   Shear-to-failure normal stress σ_S:       1844 Pa
+   Yield shear stress τ_y:                   684.7 Pa
+
+   Shear-to-failure normal stress σ_S:       2439 Pa
+   Yield shear stress τ_y:                   910.5 Pa
+
+Cohesion τ_c:                                48.56 Pa
+Tensile strength σ_t:                        -138.3 Pa
+Unconfined yield strength σ_c:               137 Pa
+Major principle stress σ_1:                  3678 Pa
+Coefficient of flowability ff_c:             26.8     free-flowing
+Angle of internal friction φ_sf:             16.93°
+Effective angle of internal friction φ_e:    20.37°
+Slope angle of linearized yield locus φ_lin: 19.35°
+Sample height for bulk solid density:        12.77 mm
+Bulk solid density ρ_b:                      1.541 g/cm³
+
+Preshear level 2
+   Preshear normal stress σ_p:               5996 Pa
+   Preshear stress τ_p:                      1880 Pa
+
+Shear-to-failure points
+   Shear-to-failure normal stress σ_S:       2427 Pa
+   Yield shear stress τ_y:                   919.6 Pa
+
+   Shear-to-failure normal stress σ_S:       3632 Pa
+   Yield shear stress τ_y:                   1336 Pa
+
+   Shear-to-failure normal stress σ_S:       4810 Pa
+   Yield shear stress τ_y:                   1687 Pa
+
+Cohesion τ_c:                                147.8 Pa
+Tensile strength σ_t:                        -459.2 Pa
+Unconfined yield strength σ_c:               405.6 Pa
+Major principle stress σ_1:                  7633 Pa
+Coefficient of flowability ff_c:             18.8     free-flowing
+Angle of internal friction φ_sf:             17.41°
+Effective angle of internal friction φ_e:    19.32°
+Slope angle of linearized yield locus φ_lin: 17.84°
+Sample height for bulk solid density:        12.55 mm
+Bulk solid density ρ_b:                      1.569 g/cm³
+
+Preshear level 3
+   Preshear normal stress σ_p:               9000 Pa
+   Preshear stress τ_p:                      2861 Pa
+
+Shear-to-failure points
+   Shear-to-failure normal stress σ_S:       3635 Pa
+   Yield shear stress τ_y:                   1330 Pa
+
+   Shear-to-failure normal stress σ_S:       5425 Pa
+   Yield shear stress τ_y:                   1995 Pa
+
+   Shear-to-failure normal stress σ_S:       7240 Pa
+   Yield shear stress τ_y:                   2602 Pa
+
+Cohesion τ_c:                                58.2 Pa
+Tensile strength σ_t:                        -164.9 Pa
+Unconfined yield strength σ_c:               164.5 Pa
+Major principle stress σ_1:                  11440 Pa
+Coefficient of flowability ff_c:             69.5     free-flowing
+Angle of internal friction φ_sf:             17.64°
+Effective angle of internal friction φ_e:    19.83°
+Slope angle of linearized yield locus φ_lin: 19.44°
+Sample height for bulk solid density:        12.3 mm
+Bulk solid density ρ_b:                      1.6 g/cm³
