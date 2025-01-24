@@ -1,0 +1,56 @@
+Yield locus function
+--------------------
+Project:                                     Test_Shear_Cell
+Input data:                                  ccgm 690 um grain 2, <All
+                                             measuring results>, From
+                                             interval 1, Point 1
+Result data:                                 Yield locus function
+
+ANALYSIS RESULTS:
+Number of used input data points:            4200
+Number of result data points:                9
+Found preshear interval nos.:                2;6;10;14;18;22;26;30;34
+Found shear-to-failure interval nos.:        4;8;12;16;20;24;28;32;36
+
+Preshear
+   Preshear normal stress σ_p:               8990 Pa
+   Preshear stress τ_p:                      3040 Pa
+
+Shear-to-failure points
+   Shear-to-failure normal stress σ_S:       3616 Pa
+   Yield shear stress τ_y:                   1887 Pa
+
+   Shear-to-failure normal stress σ_S:       4015 Pa
+   Yield shear stress τ_y:                   2211 Pa
+
+   Shear-to-failure normal stress σ_S:       4511 Pa
+   Yield shear stress τ_y:                   2469 Pa
+
+   Shear-to-failure normal stress σ_S:       4988 Pa
+   Yield shear stress τ_y:                   2596 Pa
+
+   Shear-to-failure normal stress σ_S:       5438 Pa
+   Yield shear stress τ_y:                   2712 Pa
+
+   Shear-to-failure normal stress σ_S:       5878 Pa
+   Yield shear stress τ_y:                   2868 Pa
+
+   Shear-to-failure normal stress σ_S:       6361 Pa
+   Yield shear stress τ_y:                   3114 Pa
+
+   Shear-to-failure normal stress σ_S:       6825 Pa
+   Yield shear stress τ_y:                   3156 Pa
+
+   Shear-to-failure normal stress σ_S:       7160 Pa
+   Yield shear stress τ_y:                   3231 Pa
+
+Cohesion τ_c:                                743 Pa
+Tensile strength σ_t:                        -2065 Pa
+Unconfined yield strength σ_c:               2114 Pa
+Major principle stress σ_1:                  11000 Pa
+Coefficient of flowability ff_c:             5.2     easy-flowing
+Angle of internal friction φ_sf:             18.68°
+Effective angle of internal friction φ_e:    25.43°
+Slope angle of linearized yield locus φ_lin: 19.79°
+Sample height for bulk solid density:        11.72 mm
+Bulk solid density ρ_b:                      1.702 g/cm³

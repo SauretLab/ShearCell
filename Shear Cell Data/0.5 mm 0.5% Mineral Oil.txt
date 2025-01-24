@@ -1,0 +1,52 @@
+Yield locus function
+--------------------
+Project:                                     PowderShear | Mineral Oil
+                                             Actual
+Input data:                                  Mineral Oil 0.5% on 0.5 mm
+                                             Glass Beads, <All measuring
+                                             results>, From interval 1,
+                                             Point 1
+Result data:                                 Yield locus function
+
+ANALYSIS RESULTS:
+Number of used input data points:            4610
+Number of result data points:                7
+Found preshear interval nos.:                2;6;10;14;18;22;26
+Found shear-to-failure interval nos.:        4;8;12;16;20;24;28
+
+Preshear
+   Preshear normal stress σ_p:               8978 Pa
+   Preshear stress τ_p:                      2921 Pa
+
+Shear-to-failure points
+   Shear-to-failure normal stress σ_S:       3706 Pa
+   Yield shear stress τ_y:                   1704 Pa
+
+   Shear-to-failure normal stress σ_S:       4267 Pa
+   Yield shear stress τ_y:                   2004 Pa
+
+   Shear-to-failure normal stress σ_S:       4848 Pa
+   Yield shear stress τ_y:                   2271 Pa
+
+   Shear-to-failure normal stress σ_S:       5525 Pa
+   Yield shear stress τ_y:                   2641 Pa
+
+   Shear-to-failure normal stress σ_S:       6057 Pa
+   Yield shear stress τ_y:                   3009 Pa
+
+   Shear-to-failure normal stress σ_S:       6663 Pa
+   Yield shear stress τ_y:                   3325 Pa
+
+   Shear-to-failure normal stress σ_S:       7250 Pa
+   Yield shear stress τ_y:                   3269 Pa
+
+Cohesion τ_c:                                0 Pa
+Tensile strength σ_t:                        0 Pa
+Unconfined yield strength σ_c:               0 Pa
+Major principle stress σ_1:                  10770 Pa
+Coefficient of flowability ff_c:             infinite     free-flowing
+Angle of internal friction φ_sf:             18.02°
+Effective angle of internal friction φ_e:    25.9°
+Slope angle of linearized yield locus φ_lin: 25.9°
+Sample height for bulk solid density:        12.32 mm
+Bulk solid density ρ_b:                      1.489 g/cm³

@@ -1,0 +1,56 @@
+Yield locus function
+--------------------
+Project:                                     Test_Shear_Cell
+Input data:                                  0.49 pm 0.06 mm with 0.5% wet
+                                             1, <All measuring results>,
+                                             From interval 1, Point 1
+Result data:                                 Yield locus function
+
+ANALYSIS RESULTS:
+Number of used input data points:            5140
+Number of result data points:                9
+Found preshear interval nos.:                2;6;10;14;18;22;26;30;34
+Found shear-to-failure interval nos.:        4;8;12;16;20;24;28;32;36
+
+Preshear
+   Preshear normal stress σ_p:               2977 Pa
+   Preshear stress τ_p:                      1508 Pa
+
+Shear-to-failure points
+   Shear-to-failure normal stress σ_S:       1343 Pa
+   Yield shear stress τ_y:                   1027 Pa
+
+   Shear-to-failure normal stress σ_S:       1480 Pa
+   Yield shear stress τ_y:                   1024 Pa
+
+   Shear-to-failure normal stress σ_S:       1555 Pa
+   Yield shear stress τ_y:                   1932 Pa
+
+   Shear-to-failure normal stress σ_S:       1690 Pa
+   Yield shear stress τ_y:                   1190 Pa
+
+   Shear-to-failure normal stress σ_S:       1854 Pa
+   Yield shear stress τ_y:                   3958 Pa
+
+   Shear-to-failure normal stress σ_S:       1985 Pa
+   Yield shear stress τ_y:                   1521 Pa
+
+   Shear-to-failure normal stress σ_S:       2134 Pa
+   Yield shear stress τ_y:                   1339 Pa
+
+   Shear-to-failure normal stress σ_S:       2313 Pa
+   Yield shear stress τ_y:                   1339 Pa
+
+   Shear-to-failure normal stress σ_S:       2442 Pa
+   Yield shear stress τ_y:                   1467 Pa
+
+Cohesion τ_c:                                1340 Pa
+Tensile strength σ_t:                        -8213 Pa
+Unconfined yield strength σ_c:               3152 Pa
+Major principle stress σ_1:                  3914 Pa
+Coefficient of flowability ff_c:             1.24     very cohesive
+Angle of internal friction φ_sf:             26.86°
+Effective angle of internal friction φ_e:    48.87°
+Slope angle of linearized yield locus φ_lin: 9.264°
+Sample height for bulk solid density:        11.07 mm
+Bulk solid density ρ_b:                      1.59 g/cm³
