@@ -3,6 +3,22 @@ import re
 import numpy as np
 import matplotlib.pyplot as plt
 
+def derive_raw_github_url(permalink):
+    """
+    Converts a GitHub permalink to a raw file URL.
+
+    Parameters:
+        permalink (str): Permalink to the GitHub file.
+
+    Returns:
+        str: Raw GitHub URL for the file.
+    """
+    if "github.com" in permalink and "/blob/" in permalink:
+        raw_url = permalink.replace("github.com", "raw.githubusercontent.com").replace("/blob/", "/")
+        return raw_url
+    else:
+        raise ValueError("Invalid GitHub permalink. Make sure it includes '/blob/'.")
+
 def filter_lines_and_sort(github_url):
     """
     Reads a text file from a GitHub repository, removes all lines except those starting with specific phrases,
@@ -49,15 +65,17 @@ def extract_and_regress(x, y):
 
     # Plot the data and regression line
     plt.figure(figsize=(8, 6))
-    plt.scatter(x, y, color='blue', label='Data Points')
-    plt.plot(x_pred, y_pred, color='red', label='Linear Regression')
+    plt.rc('font', family='serif')
+
+    plt.scatter(x, y, color='blue', label='Data Points', s = 70)
+    plt.plot(x_pred, y_pred, color='red', label='Linear Regression', linestyle = '--')
 
     # Add labels, title, and legend
-    x_label = r"\sigma_{\rm c}"
-    y_label = r"\tau_{\rm c}"
-    plt.title("Linear Regression: {} vs. {}".format(y_label, x_label), fontsize=14)
-    plt.xlabel(x_label, fontsize=12)
-    plt.ylabel(y_label, fontsize=12)
+    x_label = r"$\sigma_{\rm c}$"
+    y_label = r"$\tau_{\rm c}$"
+    plt.title("Linear Regression: {} vs. {}".format(y_label, x_label), fontsize=16)
+    plt.xlabel(x_label, fontsize = 16)
+    plt.ylabel(y_label, fontsize = 16)
     plt.grid(True, linestyle='--', alpha=0.6)
     plt.legend(fontsize=10)
     plt.tight_layout()
@@ -68,9 +86,10 @@ def extract_and_regress(x, y):
 
 # Example usage
 if __name__ == "__main__":
-    github_url = "https://raw.githubusercontent.com/SauretLab/ShearCell/3811c2a70d4f4f6d2d4c5bc2ffb43b08624666e4/Shear%20Cell%20Data/0.49%20pm%200.06%20mm%200.5%25%20Water%2026th%20July%202024.txt"
+    github_permalink = "https://github.com/SauretLab/ShearCell/blob/4376e399a21b59b14cce33ffdcbf9bf79ead9b7e/Shear%20Cell%20Data/0.5%25%20Wet%20grains/1%20mm%20mm%200.5%25%20Water%20but%20aged%20over%20few%20hours.txt"
 
     try:
+        github_url = derive_raw_github_url(github_permalink)
         shear_cell_data = filter_lines_and_sort(github_url)
         print("Shear Cell Data:")
         print(shear_cell_data)
