@@ -1,0 +1,42 @@
+Yield locus function
+--------------------
+Project:                                     Powder Shear Test | Abhi-
+                                             Template 200 micron glass
+                                             beads with 0.5% Water
+Input data:                                  200 micron grains with 0.5%
+                                             water | Abhi Template 1 kPa
+                                             Procedure, <Last measuring
+                                             result>, From interval 1,
+                                             Point 1
+Result data:                                 Yield locus function
+
+ANALYSIS RESULTS:
+Number of used input data points:            4400
+Number of result data points:                3
+Found preshear interval nos.:                2;6;10
+Found shear-to-failure interval nos.:        4;8;12
+
+Preshear
+   Preshear normal stress σ_p:               985.7 Pa
+   Preshear stress τ_p:                      406.9 Pa
+
+Shear-to-failure points
+   Shear-to-failure normal stress σ_S:       290.7 Pa
+   Yield shear stress τ_y:                   210.9 Pa
+
+   Shear-to-failure normal stress σ_S:       492.3 Pa
+   Yield shear stress τ_y:                   284.3 Pa
+
+   Shear-to-failure normal stress σ_S:       657.9 Pa
+   Yield shear stress τ_y:                   345.5 Pa
+
+Cohesion τ_c:                                104.3 Pa
+Tensile strength σ_t:                        -284.5 Pa
+Unconfined yield strength σ_c:               298.5 Pa
+Major principle stress σ_1:                  1328 Pa
+Coefficient of flowability ff_c:             4.45     easy-flowing
+Angle of internal friction φ_sf:             22.43°
+Effective angle of internal friction φ_e:    26.81°
+Slope angle of linearized yield locus φ_lin: 20.13°
+Sample height for bulk solid density:        12.87 mm
+Bulk solid density ρ_b:                      1.432 g/cm³
